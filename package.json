@@ -23,6 +23,7 @@
     "prettier": "2.8.4"
   },
   "dependencies": {
+    "discord.js": "^14.8.0",
     "dotenv": "^16.0.3",
     "node-color-log": "^10.0.2"
   }
