@@ -21,5 +21,9 @@
     "eslint": "^8.36.0",
     "eslint-config-google": "^0.14.0",
     "prettier": "2.8.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-color-log": "^10.0.2"
   }
 }
