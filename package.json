@@ -1,0 +1,25 @@
+{
+  "name": "announcementbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "bot": "node .",
+    "test": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProjectCSJ/AnnouncementBot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ProjectCSJ/AnnouncementBot/issues"
+  },
+  "keywords": [],
+  "author": "鈴木ななみ",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-google": "^0.14.0",
+    "prettier": "2.8.4"
+  }
+}
