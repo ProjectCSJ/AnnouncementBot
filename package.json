@@ -1,30 +1,34 @@
 {
-  "name": "announcementbot",
-  "version": "1.0.0",
-  "description": "",
-  "main": "bot.js",
-  "scripts": {
-    "bot": "node .",
-    "test": "nodemon ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ProjectCSJ/AnnouncementBot.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ProjectCSJ/AnnouncementBot/issues"
-  },
-  "keywords": [],
-  "author": "鈴木ななみ",
-  "license": "GPL-3.0",
-  "devDependencies": {
-    "eslint": "^8.36.0",
-    "eslint-config-google": "^0.14.0",
-    "prettier": "2.8.4"
-  },
-  "dependencies": {
-    "discord.js": "^14.8.0",
-    "dotenv": "^16.0.3",
-    "node-color-log": "^10.0.2"
-  }
+	"name": "announcementbot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "bot.js",
+	"scripts": {
+		"bot": "node .",
+		"test": "nodemon .",
+		"lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+		"format": "prettier --write ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ProjectCSJ/AnnouncementBot.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ProjectCSJ/AnnouncementBot/issues"
+	},
+	"keywords": [],
+	"author": "鈴木ななみ",
+	"license": "GPL-3.0",
+	"devDependencies": {
+		"eslint": "^8.36.0",
+		"eslint-config-google": "^0.14.0",
+		"prettier": "2.8.4"
+	},
+	"dependencies": {
+		"discord.js": "^14.8.0",
+		"dotenv": "^16.0.3",
+		"node-color-log": "^10.0.2",
+		"sequelize": "^6.29.3",
+		"sqlite3": "^5.1.6"
+	}
 }
