@@ -3,6 +3,7 @@ const { Client, GatewayIntentBits } = require("discord.js");
 const Logger = require("node-color-log");
 const dotenv = require("dotenv");
 const path = require("node:path");
+const fs = require("node:fs");
 
 // Configuration Setup
 const logger = Logger.createNamedLogger("HuskCat v1");
