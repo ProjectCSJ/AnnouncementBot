@@ -34,7 +34,7 @@ const eventRoot = path.join(__dirname, "events");
 for (const eventPath of eventRoot) {
 	const eventFolder = path.join(eventRoot, eventPath);
 	for (const eventFile of eventFolder) {
-		const eventPath = path.join(eventRoot, eventFolder, eventFile);
+		const eventPath = path.join(eventFolder, eventFile);
 		const event = require(eventPath);
 		if (event.once) {
 			client.once(event.name, (...args) => event.execute(...args));
